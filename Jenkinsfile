@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "Cloning echo..."
-                git branch: 'main', url: 'https://github.com/Akshaya-125/week5.git'
+                git branch: 'main', url: 'https://github.com/Akshaya-125/CICDexam.git'
             }
         }
         stage('Compile') {
